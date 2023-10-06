@@ -3,7 +3,7 @@ VQVAE Implementation in pytorch with generation using LSTM
 
 This repository implements a VQVAE for mnist and colored version of mnist and follows up with a simple LSTM for generating numbers.
 
-Video on VQVAE - https://www.youtube.com/watch?v=1ZHzAOutcnw
+[VQVAE Explanation and Implementation Video](https://www.youtube.com/watch?v=1ZHzAOutcnw)
 
 # Quickstart
 * Create a new conda environment with python 3.8 then run below commands
@@ -49,10 +49,19 @@ During inference the following output will be saved
 
 ## Sample Output for VQVAE
 
-Running `run_simple_vqvae` should give you below reconstructions
+Running `run_simple_vqvae` should be very quick (as its very simple model) and give you below reconstructions (input in black black background and reconstruction in white background)
+
+<img src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/607fb5a8-b880-4af5-8ce0-5d7127aa66a7" width="400">
 
 Running default config VQVAE for mnist should give you below reconstructions for both versions
 
-Sample Generation Output after just 5 epochs
+<img src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/939f8f22-0145-467f-8cd6-4b6c6e6f315f" width="400">
+<img src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/0e28286a-bc4c-44e3-a385-84d1ae99492c" width="400">
 
-Training the lstm longer and more parameters will give better results 
+Sample Generation Output after just 5 epochs
+Training the vqvae and lstm longer and more parameters(codebook size, codebook dimension, channels , lstm hidden dimension e.t.c) will give better results 
+
+<img src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/688a6631-df34-4fde-9508-a05ae3c2ae91" width="400">
+<img src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/319fb47a-44da-45a6-87c1-238b6560d7a5" width="400">
+
+
