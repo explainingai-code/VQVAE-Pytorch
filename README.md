@@ -58,7 +58,7 @@ Running default config VQVAE for mnist should give you below reconstructions for
 <img src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/939f8f22-0145-467f-8cd6-4b6c6e6f315f" width="400">
 <img src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/0e28286a-bc4c-44e3-a385-84d1ae99492c" width="400">
 
-Sample Generation Output after just 5 epochs
+Sample Generation Output after just 10 epochs
 Training the vqvae and lstm longer and more parameters(codebook size, codebook dimension, channels , lstm hidden dimension e.t.c) will give better results 
 
 <img src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/688a6631-df34-4fde-9508-a05ae3c2ae91" width="300">
