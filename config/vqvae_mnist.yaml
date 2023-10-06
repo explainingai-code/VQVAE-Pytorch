@@ -1,0 +1,30 @@
+model_params:
+  in_channels: 1
+  convbn_blocks: 4
+  conv_kernel_size: [3,3,3,2]
+  conv_kernel_strides: [2, 2, 1, 1]
+  convbn_channels: [1, 16, 32, 8, 4]
+  conv_activation_fn: 'leaky'
+  transpose_bn_blocks: 4
+  transposebn_channels: [4, 8, 32, 16, 1]
+  transpose_kernel_size: [3,4,4,4]
+  transpose_kernel_strides: [1,2,1,1]
+  transpose_activation_fn: 'leaky'
+  latent_dim: 2
+  codebook_size : 5
+
+train_params:
+  task_name: 'vqvae_latent_2_codebook_5'
+  batch_size: 64
+  epochs: 10
+  lr: 0.005
+  crit: 'l2'
+  reconstruction_loss_weight : 1
+  codebook_loss_weight : 1
+  commitment_loss_weight : 0.2
+  ckpt_name: 'best_vqvae_latent_2_codebook_5.pth'
+  seed: 111
+  save_training_image: True
+  train_path: 'data/train/images'
+  test_path: 'data/test/images'
+  output_train_dir: 'output'
