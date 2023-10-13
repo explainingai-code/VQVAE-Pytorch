@@ -142,7 +142,7 @@ def train_lstm(args):
     
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Arguments for vqvae inference')
+    parser = argparse.ArgumentParser(description='Arguments for lstm training')
     parser.add_argument('--config', dest='config_path',
                         default='../config/vqvae_colored_mnist.yaml', type=str)
     args = parser.parse_args()
