@@ -62,7 +62,7 @@ class VQVAE(nn.Module):
         
         # Compute losses
         commitment_loss = torch.mean((quant_out.detach() - quant_input)**2)
-        codebook_loss = torch.mean((quant_out - quant_input.detach()**2))
+        codebook_loss = torch.mean((quant_out - quant_input.detach())**2)
         quantize_losses = codebook_loss + self.beta*commitment_loss
         
         # Ensure straight through gradient
