@@ -1,9 +1,15 @@
 VQVAE Implementation in pytorch with generation using LSTM
 ========
 
-This repository implements a VQVAE for mnist and colored version of mnist and follows up with a simple LSTM for generating numbers.
+This repository implements a [VQVAE](https://arxiv.org/abs/1711.00937) for mnist and colored version of mnist and follows up with a simple LSTM for generating numbers.
 
-[My VQVAE Explanation and Implementation Video](https://www.youtube.com/watch?v=1ZHzAOutcnw)
+## VQVAE Explanation and Implementation Video
+<a href="https://www.youtube.com/watch?v=1ZHzAOutcnw">
+   <img alt="VQVAE Video" src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/a8902388-6337-4f19-901b-ca302ab6c556"
+   width="300">
+</a>
+
+
 
 # Quickstart
 * Create a new conda environment with python 3.8 then run below commands
@@ -64,5 +70,16 @@ Training the vqvae and lstm longer and more parameters(codebook size, codebook d
 <img src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/688a6631-df34-4fde-9508-a05ae3c2ae91" width="300">
 <img src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/187fa630-a7ef-4f0b-aef7-5c6b53019b38" width="300">
 
+## Citations
+```
+@misc{oord2018neural,
+      title={Neural Discrete Representation Learning}, 
+      author={Aaron van den Oord and Oriol Vinyals and Koray Kavukcuoglu},
+      year={2018},
+      eprint={1711.00937},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
 
