@@ -1,14 +1,13 @@
 VQVAE Implementation in pytorch with generation using LSTM
 ========
 
-This repository implements a [VQVAE](https://arxiv.org/abs/1711.00937) for mnist and colored version of mnist and follows up with a simple LSTM for generating numbers.
+This repository implements [VQVAE](https://arxiv.org/abs/1711.00937) for mnist and colored version of mnist and follows up with a simple LSTM for generating numbers.
 
 ## VQVAE Explanation and Implementation Video
 <a href="https://www.youtube.com/watch?v=1ZHzAOutcnw">
-   <img alt="VQVAE Video" src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/a8902388-6337-4f19-901b-ca302ab6c556"
+   <img alt="VQVAE Video" src="https://github.com/explainingai-code/VQVAE-Pytorch/assets/144267687/a411d732-8c99-41fb-b39c-dd2c3fbfa448"
    width="300">
 </a>
-
 
 
 # Quickstart
